@@ -1,0 +1,12 @@
+Package: link2Rhtslib
+Type: Package
+Title: link to a shared library
+Version: 0.99.0
+Date: 2015-03-06
+Author: Nathaniel Hayden
+Maintainer: Nathaniel Hayden <nhayden@fredhutch.org>
+Description: Link to routine in libhts library in Rhtslib package to
+             confirm successful linkage.
+Depends: Rhtslib
+License: GPL (>= 2)
+LinkingTo: Rhtslib
