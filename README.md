@@ -1,2 +1,5 @@
 # link2Rhtslib
-Simple package has (1) native code with no dependencies and (2) native code that requires header and proper linkage to Rhtslib
+To ease testing of proper linkage to the HTSlib library in `Rhtslib`.
+
+- native routine with no dependencies (`callLocal`)
+- native routine that requires `hts.h` header from HTSlib and links to `libhts` in `Rhtslib`
